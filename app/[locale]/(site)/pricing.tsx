@@ -7,8 +7,7 @@ import { Flame } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-// Premium template purchase - can be removed if not needed
-import { PremiumButton } from './pricing/premium-button'
+
 
 export default function Pricing() {
   const t = useTranslations()
@@ -143,10 +142,9 @@ export default function Pricing() {
                 ))}
               </ul>
               <div className='flex flex-col gap-2'>
-                {/* Premium template purchase - can be removed if not needed */}
-                <PremiumButton />
+                <Button className='w-full'>Get Started</Button>
                 <p className='text-sm text-center text-muted-foreground'>
-                  Pay once. Build unlimited projects!
+                  Start your project today.
                 </p>
               </div>
             </div>

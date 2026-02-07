@@ -9,7 +9,7 @@ import {
   TooltipTrigger,
   TooltipPopup,
 } from '@/components/ui/tooltip'
-import { PremiumButton } from './pricing/premium-button'
+
 
 const tooltipHandle = TooltipCreateHandle<React.ComponentType>()
 
@@ -43,13 +43,13 @@ export default function Hero() {
             Go from idea to income in record time. A modern boilerplate that saves you weeks of
             setup so you can spend time building features that actually make money.{' '}
           </p>
-          <div className='mx-auto mt-10 flex items-center justify-center gap-4'>
-            <PremiumButton className='text-white' />
-            <Button variant='outline' className='font-semibold h-12! px-8 text-base'>
-              Try demo
-              <ArrowUpRight className='h-8 w-8' />
-            </Button>
-          </div>
+          <Button className='font-semibold h-12! px-8 text-base text-white'>
+            Get Started
+            <ArrowUpRight className='h-8 w-8 ml-2' />
+          </Button>
+          <Button variant='outline' className='font-semibold h-12! px-8 text-base'>
+            Try demo
+          </Button>
         </div>
 
         {/* Built With Section */}
