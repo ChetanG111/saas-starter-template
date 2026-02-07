@@ -81,7 +81,7 @@ export function EmailFooter({ baseUrl = getBaseUrl(), unsubscribe, messageId }: 
                         </Link>
                       </td>
                       <td align='left' style={{ padding: '0 8px' }}>
-                        <Link href='https://github.com/revokslab' rel='noopener noreferrer'>
+                        <Link href='https://github.com/kyronhq' rel='noopener noreferrer'>
                           <Img
                             src={`${baseUrl}/static/github-icon.png`}
                             width='20'

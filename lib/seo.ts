@@ -10,16 +10,13 @@ const brandConfig = getBrandConfig()
 export const siteConfig = {
   name: brandConfig.name,
   description:
-    'ShipFree is a free open-source Next.js SaaS boilerplate alternative to ShipFast. Simplify and optimize your shipping process with modern web technologies.',
+    'KyronHQ is a modern SaaS boilerplate to simplify and optimize your shipping process with modern web technologies.',
   url: getBaseUrl(),
-  twitterHandle: '@codedoesdev',
-  creator: 'The Revoks Company',
+  twitterHandle: '@kyronhq',
+  creator: 'KyronHQ',
   keywords: [
-    'ShipFree',
-    'ShipFast alternative',
-    'Next.js SaaS boilerplate',
-    'Open source boilerplate',
-    'SaaS template',
+    'KyronHQ',
+    'SaaS boilerplate',
     'Next.js template',
     'Shipping solution',
     'E-commerce boilerplate',
@@ -140,9 +137,9 @@ export const generateMetadata = (options: SEOOptions = {}): Metadata => {
   // For child pages, just use string title (template will be applied automatically)
   const titleMetadata = options.isRootLayout
     ? {
-        absolute: options.title || siteConfig.name,
-        template: `%s · ${siteConfig.name}`,
-      }
+      absolute: options.title || siteConfig.name,
+      template: `%s · ${siteConfig.name}`,
+    }
     : options.title || siteConfig.name
 
   return {
@@ -197,7 +194,7 @@ export const getOrganizationSchema = () => {
     description: siteConfig.description,
     url: siteConfig.url,
     logo: getAbsoluteUrl('/logo.png'),
-    sameAs: ['https://github.com/revokslab', 'https://x.com/codedoesdev'],
+    sameAs: ['https://github.com/kyronhq', 'https://x.com/kyronhq'],
   }
 }
 

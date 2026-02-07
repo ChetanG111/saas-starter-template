@@ -8,7 +8,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: brand.name,
     short_name: brand.name,
     description:
-      'ShipFree is a free open-source Next.js SaaS boilerplate alternative to ShipFast. Simplify and optimize your shipping process with modern web technologies like Supabase, Stripe, LemonSqueezy, Drizzle ORM, and Mailgun.',
+      'KyronHQ is a modern SaaS boilerplate to simplify and optimize your shipping process.',
     start_url: '/',
     scope: '/',
     display: 'standalone',
@@ -37,7 +37,7 @@ export default function manifest(): MetadataRoute.Manifest {
       {
         name: 'Open dashboard',
         short_name: 'Dashboard',
-        description: 'Go to your ShipFree dashboard',
+        description: 'Go to your KyronHQ dashboard',
         url: '/dashboard',
       },
     ],

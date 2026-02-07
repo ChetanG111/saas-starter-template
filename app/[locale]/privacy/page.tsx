@@ -6,7 +6,7 @@ import { GridLayout } from '../(site)/grid-layout'
 
 export const metadata: Metadata = generateSEOMetadata({
   title: 'Privacy Policy',
-  description: 'Privacy Policy for ShipFree platform',
+  description: 'Privacy Policy for KyronHQ platform',
   canonical: '/privacy',
 })
 
@@ -36,7 +36,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
             <section>
               <h2 className='mb-4 text-xl font-semibold text-foreground'>2. how we use it</h2>
               <ul className='list-disc space-y-2 pl-6'>
-                <li>to run and improve shipfree</li>
+                <li>to run and improve kyronhq</li>
                 <li>to communicate with you about updates or issues</li>
                 <li>to prevent misuse or fraud</li>
               </ul>
@@ -72,10 +72,10 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
               <p>
                 you can request deletion or correction of your data anytime at{' '}
                 <a
-                  href='mailto:support@shipfree.dev'
+                  href='mailto:support@kyronhq.dev'
                   className='text-(--brand-accent-hex) underline-offset-4 hover:text-(--brand-accent-hover-hex) hover:underline'
                 >
-                  support@shipfree.dev
+                  support@kyronhq.dev
                 </a>
                 .
               </p>

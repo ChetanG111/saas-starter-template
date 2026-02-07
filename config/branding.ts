@@ -22,11 +22,11 @@ export interface BrandConfig {
  * Default brand configuration values
  */
 const defaultConfig: BrandConfig = {
-  name: 'ShipFree',
+  name: 'KyronHQ',
   logoUrl: undefined,
   faviconUrl: '/favicon/favicon.ico',
   customCssUrl: undefined,
-  supportEmail: 'hi@revoks.dev',
+  supportEmail: 'hi@kyronhq.dev',
   documentationUrl: undefined,
   termsUrl: undefined,
   privacyUrl: undefined,

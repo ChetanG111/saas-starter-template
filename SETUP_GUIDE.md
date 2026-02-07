@@ -1,4 +1,4 @@
-# 🚀 ShipFree SaaS Starter Setup (No-Docker)
+# 🚀 KyronHQ SaaS Starter Setup (No-Docker)
 
 ## 0. Initial Setup
 1. Clone this repository to your new SaaS project directory.

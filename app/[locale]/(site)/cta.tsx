@@ -27,13 +27,15 @@ export default function CTA() {
         </div>
 
         {/* Buttons */}
-        <Button className='font-semibold h-12! px-8 text-base text-white'>
-          Get Started
-          <ArrowUpRight className='h-8 w-8 ml-2' />
-        </Button>
-        <Button variant='outline' className='font-semibold h-12! px-8 text-base'>
-          Try demo
-        </Button>
+        <div className='mx-auto mt-10 flex items-center justify-center gap-4'>
+          <Button className='font-semibold h-12! px-8 text-base text-white'>
+            Get Started
+            <ArrowUpRight className='h-8 w-8 ml-2' />
+          </Button>
+          <Button variant='outline' className='font-semibold h-12! px-8 text-base'>
+            Try demo
+          </Button>
+        </div>
       </div>
     </section>
   )

@@ -30,7 +30,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   ...generateMetadata({
-    title: 'ShipFree - Turn Ideas Into Products, Fast',
+    title: 'KyronHQ - Turn Ideas Into Products, Fast',
     description:
       'Ship your startup in days, not weeks. A production-ready Next.js boilerplate with auth, payments, and everything you need to launch fast. Free forever, open source.',
     isRootLayout: true,

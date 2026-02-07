@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "¡Awesome project! Create products or startups faster. ¡This open-source template has everything you need!\n\n$ git clone shipfree",
+      quote: "¡Awesome project! Create products or startups faster. ¡This open-source template has everything you need!\n\n$ git clone kyronhq",
       name: "Miguel Ángel Durán",
       title: "@midudev",
       avatar: "/testimonial-image1.jpg",
@@ -17,7 +17,7 @@ export default function Testimonials() {
       verified: true,
     },
     {
-      quote: "ShipFree is a free alternative to ShipFast, designed to simplify and optimize your shipping process.",
+      quote: "KyronHQ is a free alternative to ShipFast, designed to simplify and optimize your shipping process.",
       name: "developer.joy",
       title: "@developer.joy",
       avatar: "/testimonial-image2.png",
@@ -65,7 +65,7 @@ export default function Testimonials() {
             Trusted by developers
           </h2>
           <p className="text-lg text-muted-foreground">
-            See what builders are saying about ShipFree
+            See what builders are saying about KyronHQ
           </p>
         </div>
 
@@ -74,11 +74,9 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className={`p-4 bg-transparent flex flex-col relative ${
-                  index % 3 !== 2 ? 'border-r border-[#E4E4E7]' : ''
-                } ${
-                  index < 3 ? 'border-b border-[#E4E4E7]' : ''
-                }`}
+                className={`p-4 bg-transparent flex flex-col relative ${index % 3 !== 2 ? 'border-r border-[#E4E4E7]' : ''
+                  } ${index < 3 ? 'border-b border-[#E4E4E7]' : ''
+                  }`}
               >
                 {/* Quote */}
                 <p className="text-sm text-muted-foreground mb-4 whitespace-pre-line">

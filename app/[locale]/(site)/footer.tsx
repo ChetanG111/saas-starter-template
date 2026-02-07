@@ -163,7 +163,7 @@ export default function Footer() {
             <ul className='space-y-3'>
               <li>
                 <Link
-                  href='https://github.com/revokslab/shipfree'
+                  href='https://github.com/kyronhq'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors duration-200 ease-in-out hover:text-foreground'
@@ -174,7 +174,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://discord.com'
+                  href='https://discord.gg/kyronhq'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors duration-200 ease-in-out hover:text-foreground'
@@ -185,7 +185,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href='https://x.com/shipfree_dev'
+                  href='https://x.com/kyronhq'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='flex items-center gap-2 text-sm font-medium text-muted-foreground transition-colors duration-200 ease-in-out hover:text-foreground'
@@ -201,19 +201,19 @@ export default function Footer() {
         <div className='mt-12 pt-8 border-t border-[#E4E4E7]'>
           <div className='flex flex-col gap-4'>
             <div className='flex items-center gap-2'>
-              <img src='/image.png' alt='ShipFree Logo' className='h-6 w-6 object-contain' />
+              <img src='/image.png' alt='KyronHQ Logo' className='h-6 w-6 object-contain' />
               <span
                 className='text-base font-semibold text-foreground'
                 style={{ fontFamily: 'var(--font-bricolage-grotesque)' }}
               >
-                ShipFree
+                KyronHQ
               </span>
             </div>
             <p className='text-sm text-muted-foreground'>Turn ideas into products, fast</p>
             <div className='flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>
               <p className='text-sm text-muted-foreground'>
                 Copyright © {new Date().getFullYear()} -{' '}
-                <Link href='https://revoks.dev'>The Revoks Company</Link>
+                <Link href='https://kyronhq.dev'>KyronHQ</Link>
               </p>
               <LanguageSwitcher />
             </div>
