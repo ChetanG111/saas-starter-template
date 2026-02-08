@@ -6,10 +6,26 @@
 3. Remove the `.git` folder and initialize a fresh git repo: `rm -rf .git && git init`.
 
 ## 1. Environment Configuration
+
 Create a `.env` file for your local environment variables.
 ```bash
 cp .env.example .env
 ```
+
+### Essential Variables
+Use `.env.example` as a reference. Fill in these critical values:
+
+*   **`DATABASE_URL`**: Your PostgreSQL connection string.
+*   **`BETTER_AUTH_SECRET`**: Run `openssl rand -base64 32` to generate one.
+*   **`NEXT_PUBLIC_APP_URL`**: `http://localhost:3000` for development.
+
+### OAuth Setup (Optional for Dev, Required for Prod)
+To enable Google, GitHub, etc., create apps in their developer consoles and add:
+*   `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET`
+*   `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET`
+
+### Developer Conveniences
+*   **`NEXT_PUBLIC_BYPASS_AUTH`**: Set to `true` to skip login screens and mock an admin session (Dev only).
 
 ## 2. Database Connection
 Since this setup **does not use Docker**, you need to provide your own PostgreSQL database.
