@@ -15,7 +15,7 @@ if (!connectionString) {
 
 console.log('Connecting to:', connectionString.replace(/:[^:@]+@/, ':****@')) // Log sanitized connection string
 
-const migrationClient = postgres(connectionString, { max: 1 })
+const migrationClient = postgres(connectionString, { max: 1, ssl: { rejectUnauthorized: false } })
 
 async function main() {
   console.log('Running migrations....')

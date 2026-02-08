@@ -42,6 +42,15 @@ export const auth = betterAuth({
     freshAge: 60 * 60, // 1 hour (or set to 0 to disable completely)
   },
 
+  user: {
+    additionalFields: {
+      role: {
+        type: 'string',
+        defaultValue: 'user',
+      },
+    },
+  },
+
   socialProviders: {
     ...(env.GOOGLE_CLIENT_ID &&
       env.GOOGLE_CLIENT_SECRET && {

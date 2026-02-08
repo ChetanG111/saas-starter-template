@@ -58,4 +58,11 @@ if (!schemaContent.includes('premiumPurchase')) {
     console.log('   ⚠️  Premium Purchase table still detected in schema.ts.');
 }
 
+
+// 5. Admin Setup
+console.log('\n\x1b[33m%s\x1b[0m', '5️⃣  Admin Setup');
+console.log('   To access the Super Admin Dashboard (/admin), you need an admin account.');
+console.log('   1. Sign up in the app first.');
+console.log('   2. Run: \x1b[32mbun run seed:admin <your-email>\x1b[0m');
+
 console.log('\n\x1b[36m%s\x1b[0m', '🎉 Setup Instructions Complete! Follow the steps above to get started.\n');

@@ -46,5 +46,15 @@ Open [http://localhost:3000](http://localhost:3000) to see your app!
 *   **Add New Dependencies**: `bun add <package-name>`
 *   **Linting**: `bun run lint`
 
-## 6. Deployment
+## 6. Super Admin Setup
+To access the admin dashboard (`/admin`), you must manually promote your user account:
+
+1.  **Sign Up**: Create an account via `http://localhost:3000/register`.
+2.  **Promote User**: Run the seeding script in your terminal:
+    ```bash
+    bun run seed:admin your-email@example.com
+    ```
+3.  **Verify**: Log out and log back in, then visit `/admin`.
+
+## 7. Deployment
 This template is optimized for [Vercel](https://vercel.com) or [Cloudflare Pages](https://pages.cloudflare.com). simply push your code to GitHub and connect your repository. Ensure your environment variables are set in the deployment dashboard.

@@ -162,6 +162,7 @@ ShipFree/
 - `bun format`: Format code
 - `bun generate-migration`: Generate DB migration
 - `bun migrate:local`: Run migrations locally
+- `bun seed:admin <email>`: Promote a user to admin
 
 ### Testing
 
